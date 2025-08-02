@@ -1,52 +1,92 @@
-body{
+body {
     margin: auto;
     padding: 0;
     width: 600px;
 }
 
+/* 
+
+
+selectorPadre ..... elementoseleccionado {
+
+}
+
+selectopader{
+    ESTILOS 
+    ESTILOS
+
+    selectorElemento{
+        ESTILOS
+        ESTILOS
+
+    }
+}
+
+*/
+
 .cabecera {
     display: flex;
     gap: 10px;
+
+    a {
+       
+        padding: 10px;
+        color: #302f2f;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #7095ea;
+    }
 }
 
-a {
-
-    padding: 10px;
-    color: #302f2f;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #7095ea;
-}
-
-span {
-
-    border: 1px solid green;
-    padding: 4px 15px;
-    background: #c5e298;
-    color: green;
-    border-radius: 1.5rem;
-    margin-left: 15px;
-}
-
-img {
-
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-.perfil {
-    display: flex;
-    align-items: center;
-
-}
-
-main{
-    /* border: 1px solid blue; */
+main {
     margin-top: 5rem;
+
+    .perfil {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+
+        span {
+            border: 1px solid green;
+            padding: 4px 15px;
+            background: #c5e298;
+            color: green;
+            border-radius: 1.5rem;
+            margin-left: 15px;
+        }
+    }
+
+    .cuerpo {
+        span {
+            color: #ffd900;
+        }
+
+        button {
+            padding: 4px 15px;
+            border-radius: 1.5rem;
+        }
+
+        button:hover {
+            background: black;
+            color: white;
+        }
+
+
+    }
+
+
 }
+
+
+
+
 
 /* selectores{
     estilos
